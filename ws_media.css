@@ -23,6 +23,8 @@ video {
     margin-right: auto;
 }
 
+/* This edited the styles for the video itself, and the border around it */
+
 @media only screen and (min-width: 521px) {
     video {
         width: 360px;
@@ -31,6 +33,8 @@ video {
     }
 }
 
+/* this made it so therefore on desktop the min video width is 521 px */
+
 /* Track Styles */
 ::cue {
     font: 1.3em sans-serif;
@@ -38,3 +42,4 @@ video {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+/* This edited the colors of the cue elements */
